@@ -1,10 +1,16 @@
-import React from 'react'
-import Hero from '../Component/Hero/Hero'
+import React from "react";
+import Hero from "../Component/Hero/Hero";
+import Popular from "../Component/Popular/Popular";
+import Offers from "../Component/Offers/Offers";
 
 const shop = () => {
   return (
-    <Hero/>
-  )
-}
+    <div>
+      <Hero />
+      <Popular />
+      <Offers />
+    </div>
+  );
+};
 
-export default shop
+export default shop;
